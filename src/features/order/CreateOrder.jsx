@@ -48,7 +48,7 @@ function CreateOrder() {
   const cart = fakeCart;
 
   return (
-    <div>
+    <div className="">
       <h2>Ready to order? Let's go!</h2>
 
       {/* Note if action is not specified will go to the closest route <Form method="POST"> */}
